@@ -1,7 +1,7 @@
 set(VENDOR "block.one")
 set(PROJECT_NAME "wax")
 set(DESC "Software for the WAX blockchain")
-set(URL "https://github.com/cc32d9/wax2.0")
+set(URL "https://github.com/worldwide-asset-exchange/wax-blockchain")
 set(EMAIL "support@block.one")
 
 configure_file(${CMAKE_SOURCE_DIR}/scripts/generate_package.sh.in ${CMAKE_BINARY_DIR}/packages/generate_package.sh @ONLY)
